@@ -1,4 +1,4 @@
-# python_scraper
+# python scraper :page_with_curl:
 
 노마드 코더 [Python으로 웹 스크래퍼 만들기] 학습 저장소
  
