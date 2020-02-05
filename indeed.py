@@ -31,7 +31,7 @@ def extract_job_on_page(html):
     company = str(company_anchor.string[1:])
   else:
     company = str(company.string).strip()
-
+  
   # location = html.find('span', {'class':'location'}).string
   location = html.find('div', {'class':'recJobLoc'})["data-rc-loc"]
 

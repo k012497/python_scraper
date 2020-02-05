@@ -9,7 +9,6 @@ def get_last_page():
   
   pages = soup.find('div', {'class':'s-pagination'}).find_all('a')
   last_page = pages[-2].find('span').get_text()
-  print(int(last_page))
   return int(last_page)
 
 def extract_job_on_page(html):
